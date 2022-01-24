@@ -260,6 +260,7 @@ button{
 }
 
 .button-download-link{
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -279,6 +280,11 @@ button{
 .button-download-link:hover{
     background-color: rgba(225, 153, 0, 0.9);
 
+}
+
+.button-download-link:active{
+    top: 1px;
+    background-color: rgba(210, 153, 0, 0.9);
 }
 
 .button-download-link img{
@@ -622,6 +628,7 @@ footer p{
         height: 41%;
     }
 
+
     .button-download-link img {
         width: 20px;
         height: 20px;
@@ -859,12 +866,8 @@ footer p{
         
     }
     
-    nav ul li a:hover{
-        position: relative;
-        bottom: 2px;
-        
+    nav ul li a:hover{        
         background-color: yellow;
-        
         background-image: linear-gradient(0deg, rgba(255,254,254,1) 29%, rgb(20, 227, 54) 70%);
         background-size: 100%;
         background-repeat: repeat;
@@ -874,11 +877,20 @@ footer p{
         -moz-background-clip: text;
         -moz-text-fill-color: transparent;
         
-        
     }
     
     nav ul li a:active{
-        color: red;
+        position: relative;
+        top: 1px;
+        background-color: yellow;
+        background-image: linear-gradient(0deg, rgba(220,220,220,1) 29%, rgb(20, 160, 54) 70%);
+        background-size: 100%;
+        background-repeat: repeat;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
         
     }
 

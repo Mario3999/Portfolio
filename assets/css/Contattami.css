@@ -506,15 +506,14 @@ footer p{
     }
 
     .text h1{
-    font-size: 3vh; 
-    
-    font-family: "Permanent Marker", cursive;
-    
-    
-    color: rgba(255,255,255,1);
-    
-    text-shadow: 6px 6px 8px black;
-    
+        font-size: 3vh; 
+        
+        font-family: "Permanent Marker", cursive;
+        
+        
+        color: rgba(255,255,255,1);
+        
+        text-shadow: 6px 6px 8px black;
     
     }
 
@@ -544,12 +543,8 @@ footer p{
     
     
     
-    nav ul li a:hover{
-        position: relative;
-        bottom: 2px;
-        
+    nav ul li a:hover{        
         background-color: yellow;
-        
         background-image: linear-gradient(0deg, rgba(255,254,254,1) 29%, rgb(20, 227, 54) 70%);
         background-size: 100%;
         background-repeat: repeat;
@@ -559,13 +554,22 @@ footer p{
         -moz-background-clip: text;
         -moz-text-fill-color: transparent;
         
-        
     }
     
     
     
     nav ul li a:active{
-        color: white;
+        position: relative;
+        top: 1px;
+        background-color: yellow;
+        background-image: linear-gradient(0deg, rgba(220,220,220,1) 29%, rgb(20, 160, 54) 70%);
+        background-size: 100%;
+        background-repeat: repeat;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
         
     }
     
