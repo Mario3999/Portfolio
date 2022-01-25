@@ -17,9 +17,7 @@ header{
     flex-direction: column;
     width: 100vw;
     height: 50vh;
-    
     background: linear-gradient(218deg, rgba(66,191,139,1) 45%, rgba(0,142,255,1) 72%);
-    
     
 }
 
@@ -27,12 +25,10 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    
     height: 15%;
     width: 20%;
     box-shadow: 0px 0px 22px rgb(183, 0, 255);
     background-color: whitesmoke;
-    
     border-radius: 100px;
 }
 
@@ -78,10 +74,8 @@ nav{
     align-items: center;
     width: 100vw;
     height: 5vh;
-    
     background-color: rgba(0,0,0,0.7);
     color: whitesmoke;
-    
     box-shadow: 0px 0px 15px black;
 }
 
@@ -107,21 +101,16 @@ nav ul{
     gap: 17px;
     align-items: center;
     font-size: 6vw;
-    
     font-family: "Work Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
 section{
     display: flex;
     flex-direction: column;
-   
     align-items: center;
-    
     height: fit-content;
     width: 100vw;
-    
     background: linear-gradient(90deg, rgba(196,200,10,1) 12%, rgba(255,94,0,1) 100%);
-    
     padding: 15px 0px;
 }
 
@@ -133,11 +122,8 @@ section{
     gap: 13px;
     width: 90vw;
     height: fit-content;
-    
     background-color: rgba(255, 255, 255, 1);
     border-radius: 15px;
-    
-    
 
 }
 
@@ -146,7 +132,6 @@ section{
 .sub-section img{
     width: 50%;
     height: 50%;
-    
     margin-top: 20px ;
 }
 
@@ -174,30 +159,23 @@ strong{
 }
 
 .text{
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
     width: 80%;
     height: 0%;
     background-color: white;
-    
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 10%;
-    
-    
-    
+       
 }
 
 .text-sign{
-    
     width: 100%;
     height: fit-content;
     background-color: rgba(0,142,255,1);
-    
     text-align: center;
     border-radius: 10px;
     
@@ -220,15 +198,11 @@ strong{
 }
 
 .text h1{
-    font-size: 7vh; 
-    
+    font-size: 7vh;
     font-family: "Permanent Marker", cursive;
-    
     color: rgba(255,255,255,1);
-    
     text-shadow: 6px 6px 8px black;
-    
-    
+        
 }
 
 .text p{
@@ -240,9 +214,7 @@ strong{
     background: none;
     text-align: center;
     color: rgba(0,0,0,0.7);
-    
     background-color: white;
-    
     margin-bottom: 10px;
     
 }
@@ -293,11 +265,8 @@ button{
 }
 
 
-
-
 .icons-container{
     display: flex;
-    
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
@@ -330,14 +299,13 @@ button{
     align-items: center;
     width: 100%;
     height: 60%;
-    
     background-color: cornflowerblue;
     border-radius: 15px;
     
 }
 
 .languages-container p{
-    width: 50%; 
+    width: 50%;
     height: 50%;
     text-align: center;
     border-radius: 15px;
@@ -415,6 +383,7 @@ footer{
     width: 100vw;
     height: 3vh;
     background-color: rgba(0,0,0,0.7);
+    gap: 10px;
 }
 
 footer p{
@@ -431,6 +400,10 @@ footer p{
 
 /* Mobile Styles */
 @media only screen and (max-width: 400px){
+
+    nav{
+        justify-content: space-between;
+    }
 
     .sub-section{
         margin-bottom: 10px;
@@ -471,7 +444,6 @@ footer p{
         position: absolute;
         top: 310px;
         left: 50px;
-        
         background-color: rgba(0,0,0,0.3);
         min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -498,14 +470,18 @@ footer p{
     }
 
 
-    nav ul li a:active{
-        
-        position: relative;
-        top: 2px;
-    }
-
     .tab{
         display: none;
+    }
+
+    .linkedin{
+        position: relative;
+        order: 1;
+        padding-right: 10px;
+    }
+
+    .linkedin:hover{
+        top: 2px;
     }
     
 }
@@ -518,11 +494,12 @@ footer p{
     }
 
     nav{
-        justify-content: space-around;
+        justify-content: space-between;
     }
     
     nav ul{
         font-size: 3vw;
+        
     }
 
     nav ul li a:link{
@@ -534,14 +511,24 @@ footer p{
 
     }
 
-    
-
     nav ul li a:active{
         color: rgba(255, 255, 0, 1);
         position: relative;
         top: 2px;
     }
     
+    .linkedin{
+        position: relative;
+        padding-left: 10px;
+    }
+
+    .linkedin:hover{
+        top: 2px;
+    }
+
+    .invisible{
+        width: 28px;
+    }
     
     section{
         display: flex;
@@ -549,10 +536,8 @@ footer p{
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        
         height: fit-content;
         width: 100vw;
-        
         background-color: rgba(112,128,144, 0.7);
         
     }
@@ -563,15 +548,11 @@ footer p{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
         width: 45%;
         height: 45vh;
-        
         background-color: rgba(255, 255, 255, 1);
         border-radius: 15px;
-        
         margin: 10px;
-    
 
     }
 
@@ -581,34 +562,25 @@ footer p{
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        
         width: 80%;
         height: 100%;
         background-color: white;
-        
         border-radius: 10%;
-        
-    
-    
+           
     }
 
     .text h1{
-    font-size: 3vh; 
-    
-    font-family: "Permanent Marker", cursive;
-    
-    
-    color: rgba(255,255,255,1);
-    
-    text-shadow: 6px 6px 8px black;
-    
+        font-size: 3vh;
+        font-family: "Permanent Marker", cursive;
+        color: rgba(255,255,255,1);
+        text-shadow: 6px 6px 8px black;
     
     }
 
     
     
     .languages-container p{
-        width: 50%; 
+        width: 50%;
         height: 17%;
         text-align: center;
         border-radius: 15px;
@@ -642,7 +614,6 @@ footer p{
 
     .icons-container{
         display: flex;
-        
         align-items: center;
         align-content: center;
         row-gap: 20px;
@@ -670,8 +641,6 @@ footer p{
     .back-to-top-link{
         position: relative ;
         width: 0%;
-        
-        
         bottom: 300%;
         right: 32%;
         
@@ -680,6 +649,7 @@ footer p{
     .back-to-top{
         width: 85px;
     }
+
 
 }
 
@@ -691,7 +661,7 @@ footer p{
     }
 
     nav{
-        justify-content: flex-end;
+        justify-content: space-between;
     }
 
     nav ul{
@@ -708,14 +678,12 @@ footer p{
     }
 
     .social-icons img{
-        
         width: 100%;
         transition: 0.20s;
         
     }
 
     .social-icons img:hover{
-        
         filter: drop-shadow(0px 0px 10px rgba(0,0,0,.6));
     }
     
@@ -729,10 +697,8 @@ footer p{
         padding-top: 50px;
         padding-bottom: 50px;
         gap: 15px;
-        
         height: fit-content;
         width: 100vw;
-        
         background-color: rgba(112,128,144, 0.7);
         
     }
@@ -744,17 +710,12 @@ footer p{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
         width: 25%;
         height: 45vh;
-        
         background-color: rgba(255, 255, 255, 1);
         border-radius: 15px;
-        
         margin: 10px;
-        
         transition: 0.40s;
-    
 
     }
 
@@ -776,39 +737,30 @@ footer p{
     }
 
     .text{
-        
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        
         width: 80%;
         height: 100%;
         background-color: white;
-        
         border-radius: 10%;
-        
-
-    
-    
+       
     }
 
     .text h1{
-        font-size: 3vh; 
+        font-size: 3vh;
         font-family: "Permanent Marker", cursive;
-        
         color: rgba(255,255,255,1);
-        
         text-shadow: 6px 6px 8px black;
-    
-        
+            
     }
 
     
     
     
     .languages-container p{
-        width: 50%; 
+        width: 50%;
         height: 17%;
         text-align: center;
         border-radius: 15px;
@@ -841,7 +793,6 @@ footer p{
 
     .icons-container{
         display: flex;
-        
         align-items: center;
         align-content: center;
         row-gap: 55px;
@@ -894,6 +845,15 @@ footer p{
         
     }
 
+    .linkedin{
+        position: relative;
+        padding-left: 15px;
+    }
+
+    .linkedin:hover{
+        top: 2px;
+    }
+
 
     #Form{
         display: none;
@@ -907,8 +867,6 @@ footer p{
     .back-to-top-link{
         position: relative ;
         width: 0%;
-        
-        
         bottom: 410%;
         right: 37%;
         left: -37%;
@@ -920,12 +878,7 @@ footer p{
 
     .back-to-top:hover{
         filter: drop-shadow(0px 0px 12px rgba(0,142,255,1));
-       
         transition: 0.30s;
-    }
-
-    .tab{
-        display: none;
     }
 
     .mob{

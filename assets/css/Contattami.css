@@ -306,9 +306,23 @@ footer p{
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
 
+    nav{
+        justify-content: space-between;
+    }
+
     nav ul li a:active{
         color: yellow;
         position: relative;
+        top: 2px;
+    }
+
+    .linkedin{
+        position: relative;
+        order: 1;
+        padding-right: 10px;
+    }
+
+    .linkedin:hover{
         top: 2px;
     }
 
@@ -355,6 +369,10 @@ footer p{
         width: 20%;
     }
 
+    nav{
+        justify-content: space-between;
+    }
+
     nav ul{
         font-size: 3vw;
     }
@@ -364,6 +382,17 @@ footer p{
         position: relative;
         top: 2px;
     }
+
+    .linkedin{
+        position: relative;
+        padding-right: 10px;
+        order: 1;
+    }
+
+    .linkedin:hover{
+        top: 2px;
+    }
+
     
     section{
         padding: 15px 0px;
@@ -412,8 +441,22 @@ footer p{
         display: none;
     }
 
+    nav{
+        justify-content: space-between;
+    }
+
     nav ul{
         font-size: 2vw;
+    }
+
+    .linkedin{
+        position: relative;
+        padding-right: 25px;
+        order: 1;
+    }
+
+    .linkedin:hover{
+        top: 2px;
     }
 
     .social-icons{
@@ -421,7 +464,6 @@ footer p{
     }
 
     .social-icons img{
-       
         width: 100%;
         transition: 0.20s;
         
