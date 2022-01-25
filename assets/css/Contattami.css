@@ -423,6 +423,7 @@ footer p{
     .social-icons img{
        
         width: 100%;
+        transition: 0.20s;
         
     }
 
