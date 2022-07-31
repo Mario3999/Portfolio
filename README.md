@@ -8,7 +8,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Mario3999/Portfolio">
-    <img src="public/assets/img/positive.png" alt="Logo" width="150" height="150">
+    <img src="assets/img/portfolio-icon.svg" alt="Logo" width="150" height="150">
   </a>
 
 </div>
@@ -35,7 +35,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="public/assets/img/covid-19.png" alt="" width="" height=""></img>
+<img src="assets/img/Portfolio.png" alt="" width="" height=""></img>
 
 "Portfolio" è scritto interamente in HTML e CSS e mette in risalto le principali skills acquisite in ambito digitale. Molta attenzione è stata posta alla "responsiveness" del sito, che è fruibile da mobile, tablet e desktop.
 
